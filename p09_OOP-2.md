@@ -4,13 +4,15 @@
 ### Objetivos
 Los objetivos de esta práctica son:
 * Poner en práctica metodologías y conceptos de Programación Orientada a Objetos en JavaScript.
+* Poner en práctica Principios y Buenas prácticas de programación Orientada a Objetos.
 
 ### Rúbrica de evaluacion del ejercicio
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva)
 que se tendrán en cuenta a la hora de evaluar esta práctica:
-* Se valorará la realización de las diferentes tareas que se proponen
+* Se valorará la realización de las diferentes tareas que se proponen.
 * El comportamiento del programa debe ajustarse a lo solicitado en este enunciado.
 * Capacidad de la programadora de introducir cambios en el programa desarrollado.
+* Conocer y poner en prácticas los principios y buenas prácticas de programación orientada a objetos.
 * Deben usarse estructuras de datos adecuadas para representar los diferentes elementos que intervienen en el problema
 * Acreditar que se sabe generar informes de cubrimiento de código utilizando tanto 
 [Jest](https://jestjs.io/)
