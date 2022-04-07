@@ -18,8 +18,7 @@ que se tendrán en cuenta a la hora de evaluar esta práctica:
 [Jest](https://jestjs.io/)
 como
 [CodeCov](https://docs.codecov.com/docs)
-* Ante la presencia de bugs, el alumnado sabe utilizar el depurador de Visual Studio Code
-* Saber corregir bugs en un programa utilizando el depurador de Visual Studio Code
+* Saber corregir bugs en sus programas utilizando el depurador de Visual Studio Code
 * Ser capaz de desarrollar tests unitarios para sus programas utilizando 
 [Jest](https://jestjs.io/)
 * Acreditar su capacidad para configurar y utilizar 
@@ -27,17 +26,38 @@ como
   y que es capaz de trabajar con la misma en Visual Studio Code.
 * El código ha de estar documentado con 
 [JSDoc](https://jsdoc.app/). 
-  y que es capaz de generar documentación para sus programas utilizando la herramienta.
+  y ha de acreditarse la capacidad de generar documentación para sus programas utilizando la herramienta.
   Haga que la documentación del programa generada con JSDoc esté disponible a través de una web alojada en su máquina IaaS de la asignatura.
-* Acreditar que sabe depurar sus programas usando Visual Studio Code.
 * Ser capaz de resolver problemas de la plataforma Exercism, subiendo sus soluciones a la misma.
-* Acreditar que es capaz de desarrollar y ejecutar programas simples de la plataforma Jutge
+* Acreditar que es capaz de desarrollar y ejecutar programas simples de la plataforma Jutge.
 * Se comprobará que el código que el alumnado escribe se adhiere a las reglas de la 
 [Guía de Estilo de Google para Javascript](https://google.github.io/styleguide/jsguide.html).
 * Acreditar que es capaz de editar ficheros de forma remota en su VM usando Visual Studio
   Code (VSC)
 
 ### Indicaciones de caracter general
+Los programas han de organizarse en torno a clases que se han de implementar usando la sintaxis para
+clases ES6 de JavaScript y poniendo en práctica los principios de abstracción y encapsulamiento característicos 
+de la Programación Orientada a Objetos.
+En los ejercicios han de ponerse en práctica los principios y buenas prácticas que han sido expuestos en las clases de la asignatura.
+
+Vigile siempre el tipo de visibilidad que elige para los atributos (properties) de sus clases
+y tenga en cuenta tanto las reglas de 
+[estilo](https://google.github.io/styleguide/jsguide.html#features-classes)
+como las 
+[etiquetas JSDoc](https://stackoverflow.com/questions/41715994/how-to-document-ecma6-classes-with-jsdoc)
+relacionadas con el constructo `class`.
+
+Previo a la implementación de cada clase, diseñe y desarrolle un conjunto de tests para probar el correcto
+funcionamiento de todos los métodos públicos.
+
+Encapsule las clases en módulos que exporten la correspondiete clase hacia otros programas clientes que pudieran utilizarla.
+
+Configure para la práctica una página web que sirva de índice para mostrar la documentación generada por
+JSDoc para todos los ejercicios de la práctica.
+
+Configure un fichero `package.json` en el directorio raíz de su repositorio de modo que ejecutando 
+`npm install` queden instaladas todas las dependencias de su proyecto.
 
 ### Ejercicios de Exercism
 Resuelva los siguientes problemas ejecutando los tests correspondientes a cada uno de ellos hasta conseguir
