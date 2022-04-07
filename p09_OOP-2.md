@@ -89,6 +89,14 @@ El programa cliente tomará por línea de comandos un par de números complejos 
 anteriores.
 
 ### 4.- La clase *Vector3D*
+Desarrolle una clase `Vector3D` para representar vectores en el espacio tridimensional.
+La clase contemplará métodos al menos para:
+  * Imprimir en pantalla las componentes de un vector en un formato adecuado 
+  * Sumar un par de vectores
+  * Calcular el producto de un número real por un vector
+  * Calcular el producto escalar de dos vectores
+  * Calcular el módulo de un vector 
+  * Normalizar un vector
 
 ## Referencias
 * [ESLint](https://eslint.org/)
