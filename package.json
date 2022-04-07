@@ -1,7 +1,7 @@
 {
-  "name": "p07-modules-json",
+  "name": "2021-2022_p09_oop-2",
   "version": "1.0.0",
-  "description": "PAI Lab assignment #07",
+  "description": "PAI Lab assignment #09",
   "devDependencies": {
     "@babel/core": "^7.17.4",
     "@exercism/eslint-config-javascript": "^0.6.0",
@@ -12,6 +12,7 @@
     "eslint": "^8.9.0",
     "jest": "^27.5.1"
   },
+  "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
     "watch": "jest --watchAll --verbose",
@@ -19,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P07-Modules-JSON.git"
+    "url": "git+https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P09-OOP-2.git"
   },
   "keywords": [
     "PAI",
@@ -28,10 +29,10 @@
     "JSON",
     "Modules"
   ],
-  "author": "F de Sande",
+  "author": "F. de Sande",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P06-Modules-JSON/issues"
+    "url": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P09-OOP-2/issues"
   },
-  "homepage": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P06-Modules-JSON#readme"
+  "homepage": "https://github.com/ULL-ESIT-PAI-2021-2022/2021-2022-PAI-P09-OOP-2#readme"
 }
