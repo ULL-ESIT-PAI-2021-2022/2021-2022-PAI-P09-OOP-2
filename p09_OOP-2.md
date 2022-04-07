@@ -43,7 +43,7 @@ que todos pasen correctamente.
 Una vez que lo logre, suba su solución a Exercism.
 1.- [Queen Attack](https://exercism.org/tracks/javascript/exercises/queen-attack)
 
-### 1.- La clase *Clock*
+### 2.- La clase *Clock*
 En este ejercicio se propone desarrollar un módulo ES6 que implemente una clase `Clock` 
 para representar un reloj digital con horas y minutos. No es necesario contemplar segundos.
 
@@ -58,18 +58,35 @@ Análogamente, dos objetos que representen la misma hora deben ser iguales entre
 Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase
 `Clock`.
 
-Previo a la implementación de la clase, diseñe y desarrolle un conjunto de tests para probar el correcto
-funcionamiento de todos los métodos públicos de la clase.
-
-Encapsule la clase en un módulo que exporte la misma hacia otros programas clientes que pudieran utilizarla.
-
 Desarrolle un programa *cliente* que utilice la clase *Clock* e instancie objetos de esa clase:
 ```javascript
 const horaActual = new Clock(11, 59);
 console.log(horaActual.toString());   // 11:59h
 ```
 
-### 3.- La clase *Racional*
+### 3.- La clase *Complejo*
+Un
+[número complejo](https://es.wikipedia.org/wiki/N%C3%BAmero_complejo)
+puede representarse como la suma de un número real y un número imaginario, de la forma `a + bi` donde el
+término `a` es la parte real, `b` la parte imaginaria e `i` la
+[unidad imaginaria](https://es.wikipedia.org/wiki/Unidad_imaginaria).
+
+En este ejercicio se propone desarrollar un módulo ES6 que implemente una clase `Complejo` que permita operar con números complejos.
+La clase ha de contener al menos métodos que permitan las siguientes operaciones con números complejos:
+
+* `toString` Imprimir un número complejo 
+* `add` Sumar 
+* `sub` Restar
+* `mul` Multiplicar
+* `div` Dividir
+* `abs` Calcular el valor absoluto
+* `conj` Calcular el conjugado de un número complejo
+
+Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase.
+
+Desarrolle un programa cliente `complejos.js` que permita operar con números complejos haciendo uso de la clase desarrollada.
+El programa cliente tomará por línea de comandos un par de números complejos y los operará usando todas las operaciones
+anteriores.
 
 ### 4.- La clase *Vector3D*
 
