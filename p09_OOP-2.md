@@ -49,17 +49,17 @@ para representar un reloj digital con horas y minutos. No es necesario contempla
 
 La clase no ha de usar en modo alguno objetos 
 [Date](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date)
-de JavaScript y se desarrollará usando la sintaxis para clases de JavaScript y poniendo en práctica los principios de
-abstracción y encapsulamiento característicos de la Programación Orientada a Objetos.
+de JavaScript.
 
-La clase ha de contener un método *toString()* que permita imprimir en pantalla un objeto *Clock* en el
+La clase ha de sobreescribir el método *toString()* para imprimir en pantalla un objeto *Clock* en el
 formato `hh:mm`.
-La clase ha de contemplar métodos que permitan sumar y restar minutos a un objeto *Clock*.
+La clase ha de contemplar asimismo métodos que permitan sumar y restar minutos a un objeto *Clock*.
 Análogamente, dos objetos que representen la misma hora deben ser iguales entre sí.
-Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase `Complejo`.
+Incluya discrecionalmente cualesquiera otras operaciones que considere adecuadas como métodos en la clase
+`Clock`.
 
 Previo a la implementación de la clase, diseñe y desarrolle un conjunto de tests para probar el correcto
-funcionamiento de todos los métodos de la clase.
+funcionamiento de todos los métodos públicos de la clase.
 
 Encapsule la clase en un módulo que exporte la misma hacia otros programas clientes que pudieran utilizarla.
 
